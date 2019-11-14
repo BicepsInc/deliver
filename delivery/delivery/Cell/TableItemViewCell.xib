@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="61" id="KGk-i7-Jjw" customClass="TableItemViewCell" customModule="delivery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="323" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sh0-Xk-H67">
+                        <rect key="frame" x="44" y="21" width="232" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Sh0-Xk-H67" secondAttribute="height" multiplier="75:11" id="dMs-do-jC5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chA-Gk-APj">
+                        <rect key="frame" x="0.0" y="20" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="98q-U1-Gca"/>
+                            <constraint firstAttribute="width" constant="44" id="B1Z-SA-i6K"/>
+                        </constraints>
+                        <state key="normal" title="-"/>
+                        <connections>
+                            <action selector="deleteButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Sg0-Dh-6P2"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gon-Cz-meQ">
+                        <rect key="frame" x="276" y="20" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="Ir7-Uw-xy7"/>
+                            <constraint firstAttribute="height" constant="44" id="KT3-da-m0Z"/>
+                        </constraints>
+                        <state key="normal" title="+"/>
+                        <connections>
+                            <action selector="addButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gWq-fm-WHP"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Додатковий бекон" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTn-7k-L0y">
+                        <rect key="frame" x="2" y="0.0" width="174" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-Mw-uhq">
+                        <rect key="frame" x="281" y="0.0" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gon-Cz-meQ" secondAttribute="bottom" id="BDc-xG-lj5"/>
+                    <constraint firstItem="gon-Cz-meQ" firstAttribute="leading" secondItem="Sh0-Xk-H67" secondAttribute="trailing" id="Hj6-RD-ntc"/>
+                    <constraint firstAttribute="bottom" secondItem="Sh0-Xk-H67" secondAttribute="bottom" constant="5" id="O2U-RX-GGW"/>
+                    <constraint firstAttribute="bottom" secondItem="chA-Gk-APj" secondAttribute="bottom" constant="1" id="OQC-1u-1ga"/>
+                    <constraint firstAttribute="trailing" secondItem="gon-Cz-meQ" secondAttribute="trailing" id="PEg-6g-iGX"/>
+                    <constraint firstItem="Sh0-Xk-H67" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="QX7-o9-Vc7"/>
+                    <constraint firstItem="chA-Gk-APj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Uy1-Un-G74"/>
+                    <constraint firstItem="chA-Gk-APj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WBY-Fc-P3j"/>
+                    <constraint firstAttribute="trailing" secondItem="gon-Cz-meQ" secondAttribute="trailing" id="gxK-dj-WcR"/>
+                    <constraint firstItem="Sh0-Xk-H67" firstAttribute="leading" secondItem="chA-Gk-APj" secondAttribute="trailing" id="joW-9J-hfk"/>
+                    <constraint firstAttribute="bottom" secondItem="chA-Gk-APj" secondAttribute="bottom" id="kis-Sa-MGy"/>
+                    <constraint firstAttribute="trailing" secondItem="gon-Cz-meQ" secondAttribute="trailing" id="q3f-Fj-IhU"/>
+                    <constraint firstAttribute="bottom" secondItem="gon-Cz-meQ" secondAttribute="bottom" constant="1" id="tJ3-7u-9kb"/>
+                    <constraint firstItem="gon-Cz-meQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="v52-0J-mm7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameItems" destination="NTn-7k-L0y" id="4dk-JI-Eht"/>
+                <outlet property="priceItems" destination="CjH-Mw-uhq" id="TJQ-vF-uVU"/>
+                <outlet property="textFieldItems" destination="Sh0-Xk-H67" id="k0F-2b-JUG"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="107.47767857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

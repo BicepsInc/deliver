@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2C789FCD-D87B-47C6-820D-339DEA3C84D4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "delivery/Cell/TableItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "TableItemViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - 3217d6c30aba7879"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.elements.getter : Swift.Int"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - b75413022059348d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.elements.setter : Swift.Int"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - a1064c296dff257c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.elements.modify : Swift.Int"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - b7ebaac1814fcb8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.elements.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - ab0d6d10c48992ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; delivery.TableItemViewCell"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "6B6A5201-F53B-4EC8-9793-E71B3BE558DB - c64100861888fb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "delivery.TableItemViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;delivery.TableItemViewCell&gt;"
+                  moduleName = "delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romandvoritskiy/Desktop/delivery/delivery/Cell/TableItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
